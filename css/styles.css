@@ -542,3 +542,62 @@ footer > .container {
 .footer-icon-soc {
 	fill: #f4f4fd;
 }
+
+.footer-sub {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	margin-left: 80px;
+}
+.footer-sub-p {
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.02em;
+	color: #fff;
+}
+.footer-form {
+	display: flex;
+	align-items: center;
+}
+.footer-input {
+	border: 1px solid #fff;
+	border-radius: 4px;
+	width: 264px;
+	height: 40px;
+	padding: 8px 16px;
+	margin-right: 24px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.footer-input:placeholder-shown {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 200%;
+	letter-spacing: 0.04em;
+	color: #fff;
+}
+
+.footer-button {
+	display: flex;
+	align-items: center;
+	font-family: "Roboto", sans-serif;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 150%;
+	letter-spacing: 0.04em;
+	color: #fff;
+	gap: 16px;
+	border-radius: 4px;
+	padding: 8px 24px;
+	width: 165px;
+	height: 40px;
+	background-color: #4d5ae5;
+}
+.footer-icon {
+	width: 24px;
+	height: 24px;
+	fill: #f4f4fd;
+}
