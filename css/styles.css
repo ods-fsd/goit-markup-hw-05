@@ -817,6 +817,9 @@ footer > .container {
 }
 
 .label-span {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
 	border-radius: 2px;
 	fill: transparent;
 	width: 16px;
