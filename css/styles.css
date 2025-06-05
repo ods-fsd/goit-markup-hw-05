@@ -715,6 +715,10 @@ footer > .container {
 	margin-bottom: 8px;
 }
 
+.div-modal-form-comment {
+	margin-bottom: 16px;
+}
+
 .modal-input {
 	border: 1px solid rgba(46, 47, 66, 0.4);
 	border-radius: 4px;
@@ -763,7 +767,6 @@ footer > .container {
 	outline: transparent;
 	background-color: transparent;
 	transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-	margin-bottom: 16px;
 }
 
 .modal-comment:focus,
