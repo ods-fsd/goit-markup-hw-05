@@ -821,7 +821,7 @@ footer > .container {
 }
 
 .label-span {
-	display: flex;
+	display: inline-flex;
 	align-items: center;
 	justify-content: center;
 	border-radius: 2px;
@@ -847,7 +847,7 @@ footer > .container {
 
 .checkbox-input:checked + .modal-pp .label-span,
 .checkbox-input:checked + .modal-pp .label-span .icon-checkbox {
-	background-color: #4d5ae5;
+	background-color: #404bbf;
 	border: none;
 	fill: #f4f4fd;
 }
