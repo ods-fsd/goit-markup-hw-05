@@ -792,6 +792,25 @@ footer > .container {
 	color: #8e8f99;
 }
 
+.modal-pp {
+	/* display: flex;
+	align-items: center;
+	justify-content: center; */
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 117%;
+	letter-spacing: 0.04em;
+	color: #8e8f99;
+}
+
+.privacy-policy-link {
+	color: #4d5ae5;
+	line-height: 133%;
+	text-decoration: underline;
+	text-decoration-skip-ink: none;
+}
+
 .label-span {
 	align-items: center;
 	justify-content: center;
