@@ -531,7 +531,7 @@ footer > .container {
 	background-color: #31d0aa;
 }
 
-.footer-styles svg {
+.footer-styles .footer-icon-soc {
 	width: 24px;
 	height: 24px;
 	fill: #f4f4fd;
@@ -546,7 +546,6 @@ footer > .container {
 .footer-sub {
 	display: flex;
 	flex-direction: column;
-	gap: 16px;
 	margin-left: 80px;
 }
 .footer-sub-p {
@@ -699,7 +698,6 @@ footer > .container {
 	letter-spacing: 0.02em;
 	text-align: center;
 	color: #2e2f42;
-	margin-top: 48px;
 	margin-bottom: 16px;
 }
 
@@ -742,7 +740,7 @@ footer > .container {
 .modal-input:focus,
 .modal-input:checked {
 	border: 1px solid #4d5ae5;
-	border-radius: 1px;
+	border-radius: 4px;
 	width: 100%;
 	height: 40px;
 }
@@ -771,7 +769,7 @@ footer > .container {
 .modal-comment:focus,
 .modal-comment:checked {
 	border: 1px solid #4d5ae5;
-	border-radius: 1px;
+	border-radius: 4px;
 	width: 100%;
 	height: 120px;
 }
@@ -786,10 +784,10 @@ footer > .container {
 
 .checkbox {
 	margin-bottom: 24px;
+	position: relative;
 }
 
 .modal-label {
-	position: relative;
 	display: block;
 	margin-bottom: 4px;
 	align-items: baseline;
@@ -799,8 +797,28 @@ footer > .container {
 	color: #8e8f99;
 }
 
+.modal-pp {
+	display: flex;
+	align-items: center;
+
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 117%;
+	letter-spacing: 0.04em;
+	color: #8e8f99;
+}
+
+.privacy-policy-link {
+	color: #4d5ae5;
+	line-height: 133%;
+	text-decoration: underline;
+	text-decoration-skip-ink: none;
+	color: #4d5ae5;
+}
+
 .label-span {
-	display: inline-flex;
+	display: flex;
 	align-items: center;
 	justify-content: center;
 	border-radius: 2px;
@@ -814,34 +832,21 @@ footer > .container {
 		fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-label:hover .label-span,
-.modal-label:focus .label-span {
-	border: 1px solid #4d5ae5;
-}
-
-.modal-label:hover .icon-checkbox,
-.modal-label:focus .icon-checkbox {
-	fill: #4d5ae5;
-}
-
 .icon-checkbox {
 	position: absolute;
 	top: 2px;
 	left: 2px;
 	width: 12px;
 	height: 12px;
-	fill: #0a0303;
+	fill: transparent;
 	transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-input:checked + .label-span {
+.checkbox-input:checked + .modal-pp .label-span,
+.checkbox-input:checked + .modal-pp .label-span .icon-checkbox {
 	background-color: #4d5ae5;
 	border: none;
 	fill: #f4f4fd;
-}
-
-.privacy-policy-link {
-	color: #4d5ae5;
 }
 
 .modal-button {
