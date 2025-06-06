@@ -783,6 +783,10 @@ footer > .container {
 	color: rgba(46, 47, 66, 0.4);
 }
 
+.checkbox {
+	margin-bottom: 24px;
+}
+
 .modal-label {
 	display: block;
 	margin-bottom: 4px;
@@ -791,12 +795,9 @@ footer > .container {
 	line-height: 1.17;
 	letter-spacing: 0.04em;
 	color: #8e8f99;
-	margin-bottom: 24px;
 }
 
-.checkbox {
-	margin-bottom: 24px;
-}
+
 
 .modal-pp {
 	font-family: "Roboto", sans-serif;
