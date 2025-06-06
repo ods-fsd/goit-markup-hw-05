@@ -787,6 +787,7 @@ footer > .container {
 }
 
 .modal-label {
+	position: relative;
 	display: block;
 	margin-bottom: 4px;
 	align-items: baseline;
@@ -815,7 +816,6 @@ footer > .container {
 }
 
 .label-span {
-	position: relative;
 	display: inline-flex;
 	align-items: center;
 	justify-content: center;
